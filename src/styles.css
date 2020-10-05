@@ -106,18 +106,23 @@ section.landing-body {
 .landing-body-paraBox h1 {
   font-family: Caros Soft ExtraBold;
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .landing-body-paraBox-descBox {
   margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 26px;
 }
 
 .landing-body-pivoCard-item-title-para {
   font-family: Caros Soft ExtraBold;
+  font-size: 1.5rem;
 }
 
 .landing-body-pivoCard-item-title-para span {
   font-family: Sofia Regular Italic;
+  font-size: 1rem;
 }
 
 .landing-body-pivoCard-itemBox {
@@ -141,7 +146,7 @@ section.landing-body {
 .landing-body-pivoCard-item-title-imgBox {
   width: 60px;
   margin-right: 1rem;
-  padding: 10px;
+  padding: 4px;
   background-color: white;
   box-shadow: 4px 4px 16px rgba(166, 42, 47, 0.5);
   border-radius: 20px;
@@ -149,6 +154,8 @@ section.landing-body {
 
 .landing-body-pivoCard-item-descBox {
   margin-bottom: 2.4rem;
+  font-size: 1rem;
+  line-height: 26px;
 }
 
 .landing-body-pivoCard-item-ctaBox {
@@ -326,7 +333,7 @@ footer.landing-footer {}
   position: absolute;
   top: 0;
   width: 100%;
-  height: 400px;
+  height: 500px;
   z-index: -1;
   background: var(--pivoDarkestGreyColor);
 }
@@ -494,5 +501,23 @@ footer.landing-footer {}
   .landing-block-footer-policyBox-policyLinks p {
     display: inline-block;
     line-height: unset;
+  }
+
+
+  .landing-body-paraBox h1 {
+    font-size: 2.25rem;
+  }
+
+  .landing-body-paraBox-descBox {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .landing-body-pivoCard-item-title-para {
+    font-size: 1.5rem;
+  }
+
+  .landing-body-pivoCard-item-title-para span {
+    font-size: 1rem;
   }
 }
