@@ -373,7 +373,6 @@ footer.landing-footer {}
   width: 200%;
   position: absolute;
   bottom: 0;
-  animation: move-left 2s linear infinite;
 }
 
 @keyframes move-left {
