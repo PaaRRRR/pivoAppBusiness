@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Caros Soft ExtraBold';
+  src: url('./fonts/Caros-Soft-ExtraBold.woff') format('woff'),
+    url('./fonts/Caros-Soft-ExtraBold.woff2') format('woff2'),
+    url('./fonts/Caros-Soft-ExtraBold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Regular';
+  src: url('./fonts/Sofia-Pro-Soft-Regular.otf') format('otf'),
+    url('./fonts/Sofia-Pro-Soft-Regular.woff') format('woff'),
+    url('./fonts/Sofia-Pro-Soft-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Regular Italic';
+  src: url('./fonts/Sofia-Pro-Soft-Regular-Italic.otf') format('otf'),
+    url('./fonts/Sofia-Pro-Soft-Regular-Italic.woff') format('woff'),
+    url('./fonts/Sofia-Pro-Soft-Regular-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
