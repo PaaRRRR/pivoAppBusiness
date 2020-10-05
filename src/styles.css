@@ -355,6 +355,7 @@ footer.landing-footer {}
 .landing-body-handIllustration.onlyDisplayDesktop {
   width: 280px;
   right: 0;
+  bottom: -5px;
   position: absolute;
 }
 
@@ -366,7 +367,7 @@ footer.landing-footer {}
 
 .curve-shape {
   margin-bottom: -12px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .curve-shape svg {
