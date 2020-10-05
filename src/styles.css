@@ -116,6 +116,10 @@ section.landing-body {
   line-height: 26px;
 }
 
+.landing-body-paraBox-descBox a:hover {
+  color: #aaa;
+}
+
 .landing-body-pivoCard-item-title-para {
   font-family: Caros Soft ExtraBold;
   font-size: 1.5rem;
@@ -127,8 +131,8 @@ section.landing-body {
 }
 
 .landing-body-pivoCard-itemBox {
-  background-color: var(--pivoLightRedColor);
-  box-shadow: 0px 4px 26px rgba(0, 68, 78, 0.25);
+  background-color: var(--pivoLightGreyColor);
+  box-shadow: 0px 4px 26px rgba(97, 98, 98, 0.25);
   border-radius: 20px;
   flex: 1 0 50%;
   max-width: 395px;
@@ -149,7 +153,7 @@ section.landing-body {
   margin-right: 1rem;
   padding: 4px;
   background-color: white;
-  box-shadow: 4px 4px 16px rgba(166, 42, 47, 0.5);
+  box-shadow: 4px 4px 16px rgba(97, 98, 98, 0.5);
   border-radius: 20px;
 }
 
@@ -173,12 +177,12 @@ section.landing-body {
 }
 
 .landing-body-pivoCard-item-ctaBox-cta a:hover {
-  color: #F7A8B4;
+  color: var(--pivoRedColor);
 }
 
 .comingSoonItalic {
   font-family: Sofia Regular Italic;
-  color: #C8494E;
+  color: #616262;
 }
 
 
